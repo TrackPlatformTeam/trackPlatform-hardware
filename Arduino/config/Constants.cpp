@@ -67,23 +67,23 @@ const uint32_t Constants::kDbgUartSpeed = 9600;
 
 /* Movement controller (L298N) */
 const uint8_t Constants::kLeftEngineEnable = 11;
-const uint8_t Constants::kLeftEngineStraightPin = 30;
-const uint8_t Constants::kLeftEngineReversePin = 31;
-const uint8_t Constants::kRightEngineStraightPin = 32;
-const uint8_t Constants::kRightEngineReversePin = 33;
+const uint8_t Constants::kLeftEngineStraightPin = 7;
+const uint8_t Constants::kLeftEngineReversePin = 6;
+const uint8_t Constants::kRightEngineStraightPin = 5;
+const uint8_t Constants::kRightEngineReversePin = 4;
 const uint8_t Constants::kRightEngineEnable = 10;
 
 /* Distanse controller */
 const uint8_t Constants::kDistanceSensorReadPin = A2;
-const uint8_t Constants::kDistanceSensorAPin = 4;
-const uint8_t Constants::kDistanceSensorBPin = 5;
+const uint8_t Constants::kDistanceSensorAPin = 33;
+const uint8_t Constants::kDistanceSensorBPin = 32;
 const uint8_t Constants::kDistanceSensorCPin = A3;
 
 /* Line controller */
 // A = 0, B = 1, C = 2
 const uint8_t Constants::kLineSensorReadPin = A0;
-const uint8_t Constants::kLineSensorAPin = 6;
-const uint8_t Constants::kLineSensorBPin = 7;
+const uint8_t Constants::kLineSensorAPin = 31;
+const uint8_t Constants::kLineSensorBPin = 30;
 const uint8_t Constants::kLineSensorCPin = A1;
 
 /* Servo controller */
